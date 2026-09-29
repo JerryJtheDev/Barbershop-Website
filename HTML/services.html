@@ -49,7 +49,7 @@
                     <div class="details">
                         <h1 id="heading1">Afrocut</h1>
                         <p>$10</p>
-                        <a href="#" onclick="storeService('Afrocut')">Book Now</a>
+                        <a href="../HTML/booking.html" class="book-service" data-service="Afrocut">Book Now</a>
                     </div>
                 </div>
                 <div class="card">
@@ -61,7 +61,7 @@
                     <div class="details">
                         <h1 id="heading2">Braid</h1>
                         <p>$10</p>
-                        <a href="#" onclick="storeService('Braid')">Book Now</a>
+                        <a href="../HTML/booking.html" class="book-service" data-service="Braid">Book Now</a>
                     </div>
                 </div>
                 <div class="card">
@@ -73,7 +73,7 @@
                     <div class="details">
                         <h1 id="heading3">Corn Row</h1>
                         <p>$10</p>
-                        <a href="#" onclick="storeService('Corn Row')">Book Now</a>
+                        <a href="../HTML/booking.html" class="book-service" data-service="Corn Row">Book Now</a>
                     </div>
                 </div>
                 <div class="card">
@@ -85,7 +85,7 @@
                     <div class="details">
                         <h1 id="heading4">Line Up</h1>
                         <p>$10</p>
-                        <a href="#" onclick="storeService('Line Up')">Book Now</a>
+                        <a href="../HTML/booking.html" class="book-service" data-service="Line Up">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                     <div class="details">
                         <h1 id="heading5">Shape Up</h1>
                         <p>$10</p>
-                        <a href="#" onclick="storeService('Shape Up')">Book Now</a>
+                        <a href="../HTML/booking.html" class="book-service" data-service="Shape Up">Book Now</a>
                     </div>
                 </div>
                 <div class="card">
@@ -111,7 +111,7 @@
                     <div class="details">
                         <h1 id="heading6">Shaving</h1>
                         <p>$10</p>
-                        <a href="#" onclick="storeService('Shaving')">Book Now</a>
+                        <a href="../HTML/booking.html" class="book-service" data-service="Shaving">Book Now</a>
                     </div>
                 </div>
                 <div class="card">
@@ -123,7 +123,7 @@
                     <div class="details">
                         <h1 id="heading7">Skin Fade</h1>
                         <p>$10</p>
-                        <a href="#" onclick="storeService('Skin Fade')">Book Now</a>
+                        <a href="../HTML/booking.html" class="book-service" data-service="Skin Fade">Book Now</a>
                     </div>
                 </div>
                 <div class="card">
@@ -135,7 +135,7 @@
                     <div class="details">
                         <h1 id="heading8">Taper Fade</h1>
                         <p>$10</p>
-                        <a href="#" onclick="storeService('Taper Fade')">Book Now</a>
+                        <a href="../HTML/booking.html" class="book-service" data-service="Taper Fade">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -160,13 +160,6 @@
         <h1 class="address-header"><img class="footer-address" src="../media/svgs/location1.png" alt="">No. 11 Holland Street, Abuloma, Port Harcourt, Rivers State</h1>
         <h1 class="number-header"><img class="footer-number" src="../media/svgs/smartphone1.png" alt="">09012971693</h1>
     </footer>
-    <script src="../JS/services.js"></script>
-    <script src="../JS/booking.js"></script>
-    <script>
-        function storeService(serviceName) {
-            localStorage.setItem('selectedService', serviceName);
-            window.location.href = '../HTML/booking.html';
-        }
-    </script>
+    <script type="module" src="../JS/services.js"></script>
 </body>
 </html>

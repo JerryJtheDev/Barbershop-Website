@@ -73,18 +73,6 @@
       <h1 class="number-header"><img class="footer-number" src="../media/svgs/smartphone1.png" alt="">09012971693</h1>
 
     </footer>
-    <script src="../JS/booking.js"></script>
-    <script>
-        document.getElementById('book-button').addEventListener('click', function() {
-            const username = document.getElementById('username').value;
-            const date = document.getElementById('date').value;
-            const time = document.getElementById('time').value;
-            const service = localStorage.getItem('selectedService');
-
-            const message = `${username}, you have successfully booked a ${service} hair cut on ${date} at ${time}.`;
-            document.getElementById('booking-message').innerText = message;
-            document.querySelector('.booking-display').style.display = 'flex';
-        });
-    </script>
+    <script type="module" src="../JS/booking.js"></script>
 </body>
 </html>
